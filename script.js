@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { nome: 'Moletom Hering', preco: 'R$ 144,99', imagem: 'https://static.netshoes.com.br/produtos/moletom-hering-basico-com-capuz-feminina/72/ARI-3279-072/ARI-3279-072_zoom1.jpg?ts=1625769924?ims=1088x', link: 'https://www.netshoes.com.br/p/moletom-hering-basico-com-capuz-feminina-areia-ARI-3279-072' },
         { nome: 'Blusão de Moletom', preco: 'R$ 159,99', imagem: 'https://cea.vtexassets.com/arquivos/ids/58519041-1600-auto?v=638477650273200000&width=1600&height=auto&aspect=true', link: 'https://www.cea.com.br/blusao-de-moletom-bordado-com-capuz-verde-1040219-v_milit/p' },
         { nome: 'Vestido de Algodão Canelado', preco: 'R$ 69,99', imagem: 'https://cea.vtexassets.com/arquivos/ids/57969840-1600-auto?v=638271156874630000&width=1600&height=auto&aspect=true', link: 'https://www.cea.com.br/vestido-curto-de-algodao-canelado-regata-preto-1056193-preto/p' },
-        { nome: 'Kit Mini Pincéis para Maquiagem Intense', preco: 'R$ 61,50', imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXNMYKCk7QXmvodMaEs2ANAHykE7rzIoR-fg&s', link: 'https://www.boticario.com.br/kit-mini-pinceis-para-maquiagem-intense-5-itens/' },
+        { nome: 'Kit Mini Pincéis Intense', preco: 'R$ 61,50', imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXNMYKCk7QXmvodMaEs2ANAHykE7rzIoR-fg&s', link: 'https://www.boticario.com.br/kit-mini-pinceis-para-maquiagem-intense-5-itens/' },
         { nome: 'Océane Kit de Pincéis', preco: 'R$ 105,34', imagem: 'https://epocacosmeticos.vteximg.com.br/arquivos/ids/603325-450-450/7908725500566-mini-brush-kit.jpg?v=638485270147770000', link: 'https://www.epocacosmeticos.com.br/oceane-mini-brush-kit-de-pinceis/p' },
         { nome: 'Combo Siàge Shampoo e Condicionador', preco: 'R$ 92,98', imagem: 'https://acdn.mitiendanube.com/stores/002/515/645/products/design-sem-nome-2023-08-16t162940-3991-5ab1af4c529bb99a4416922143885244-640-0.png', link: 'https://www.eudora.com.br/combo-siage-liso-intenso-shampoo-250ml-condicionador-200ml/' },
         { nome: 'Combo Siàge  Shampoo, Máscara e Condicionador', preco: 'R$ 160,97', imagem: 'https://http2.mlstatic.com/D_NQ_NP_923144-MLB74678652821_022024-O.webp', link: 'https://www.eudora.com.br/combo-siage-liso-intenso-shampoo-250ml-mascara-250g-condicionador-200ml/' },
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 function copyPixKey() {
-    const pixKey = "sua-chave-pix-aqui"; //Chave Pix
+    const pixKey = "sua-chave-pix-aqui"; // chave Pix real
     navigator.clipboard.writeText(pixKey).then(() => {
         alert('Chave Pix copiada!');
     }).catch(err => {
