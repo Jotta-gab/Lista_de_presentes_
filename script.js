@@ -112,9 +112,8 @@ document.addEventListener('DOMContentLoaded', function () {
 function copyPixKey() {
     const pixKey = "sua-chave-pix-aqui"; // Substitua pela chave Pix real
     navigator.clipboard.writeText(pixKey).then(() => {
-        alert('Chave Pix copiada!');
+        alert('Você copiou minha chave Pix! Muito obrigado pelo presente!');
     }).catch(err => {
         console.error('Erro ao copiar chave Pix: ', err);
     });
 }
-
