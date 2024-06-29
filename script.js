@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
         { nome: 'Vestido de Algodão Canelado', preco: 'R$ 69,99', imagem: 'https://cea.vtexassets.com/arquivos/ids/57969840-1600-auto?v=638271156874630000&width=1600&height=auto&aspect=true', link: 'https://www.cea.com.br/vestido-curto-de-algodao-canelado-regata-preto-1056193-preto/p' },
         { nome: 'Kit Mini Pincéis para Maquiagem Intense', preco: 'R$ 61,50', imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXNMYKCk7QXmvodMaEs2ANAHykE7rzIoR-fg&s', link: 'https://www.boticario.com.br/kit-mini-pinceis-para-maquiagem-intense-5-itens/' },
         { nome: 'Océane Kit de Pincéis', preco: 'R$ 105,34', imagem: 'https://epocacosmeticos.vteximg.com.br/arquivos/ids/603325-450-450/7908725500566-mini-brush-kit.jpg?v=638485270147770000', link: 'https://www.epocacosmeticos.com.br/oceane-mini-brush-kit-de-pinceis/p' },
-        { nome: 'Kit Real Techniques Mini Sponges', preco: 'R$ 62,90', imagem: 'https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/61634/72594c3f-afb0-49f7-8ca9-e393bb2de651-kit-real-techniques-4-mini-miracle-complexion-sponges-4-unidades.png', link: 'https://www.belezanaweb.com.br/kit-real-techniques-4-mini-miracle-complexion-sponges-4-unidades/' },
         { nome: 'Combo Siàge Shampoo e Condicionador', preco: 'R$ 92,98', imagem: 'https://acdn.mitiendanube.com/stores/002/515/645/products/design-sem-nome-2023-08-16t162940-3991-5ab1af4c529bb99a4416922143885244-640-0.png', link: 'https://www.eudora.com.br/combo-siage-liso-intenso-shampoo-250ml-condicionador-200ml/' },
         { nome: 'Combo Siàge  Shampoo, Máscara e Condicionador', preco: 'R$ 160,97', imagem: 'https://http2.mlstatic.com/D_NQ_NP_923144-MLB74678652821_022024-O.webp', link: 'https://www.eudora.com.br/combo-siage-liso-intenso-shampoo-250ml-mascara-250g-condicionador-200ml/' },
         { nome: 'Pijama Americano', preco: 'R$ 159,90', imagem: 'https://img.lojasrenner.com.br/item/914497148/small/3.jpg', link: 'https://www.lojasrenner.com.br/p/pijama-americano-em-viscose-com-estampa-floral/-/A-914497130-br.lr' },
@@ -103,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 function copyPixKey() {
-    const pixKey = "sua-chave-pix-aqui"; // Substitua pela chave Pix real
+    const pixKey = "sua-chave-pix-aqui"; //Chave Pix
     navigator.clipboard.writeText(pixKey).then(() => {
         alert('Chave Pix copiada!');
     }).catch(err => {
