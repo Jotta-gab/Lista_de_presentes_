@@ -36,7 +36,9 @@ document.addEventListener('DOMContentLoaded', function () {
         { nome: 'Copo Térmico Hiddra Com Canudo 1,2L', preco: '109,90', imagem: 'https://http2.mlstatic.com/D_NQ_NP_976571-MLB75681078366_042024-O.webp', link: 'https://produto.mercadolivre.com.br/MLB-4280847164-copo-termico-hiddra-gigante-1200ml-12l-com-canudo-aco-inox-_JM?attributes=COLOR_SECONDARY_COLOR:UHJldG8=' }, 
         { nome: 'Garrafa Térmica Com Canudo Personalizada', preco: '71,90', imagem: 'https://http2.mlstatic.com/D_NQ_NP_741405-MLB73035165169_112023-O.webp', link: 'https://produto.mercadolivre.com.br/MLB-4229579802-garrafa-termica-grande-com-canudo-personalizada-com-nome-_JM?attributes=COLOR_SECONDARY_COLOR%3ATGFyYW5qYQ%3D%3D&quantity=1' }, 
         { nome: 'Balde De Pipoca Meu Malvado Favorito', preco: '179,90', imagem: 'https://http2.mlstatic.com/D_NQ_NP_944027-MLB77015563040_062024-O.webp', link: 'https://produto.mercadolivre.com.br/MLB-4824356400-balde-de-pipoca-meu-malvado-favorito-4-cinemark-_JM?variation=183313334959#reco_item_pos=1&reco_backend=ranker-retrieval-v2p_marketplace&reco_backend_type=low_level&reco_client=vip-v2p&reco_id=441d2718-6bc2-4b37-b477-0c68609fbfa4' }, 
+        { nome: 'Pulseira Rommanel Pérolas Intercaladas', preco: '91,99', imagem: 'https://down-br.img.susercontent.com/file/5ca19d55c0df4776ee61f1e3aa47288a', link: 'https://www.mercadolivre.com.br/pulseira-rommanel-fio-cartier-perolas-intercaladas-550687-comprimento-20-cm-cor-dourado/p/MLB27946417' }, 
     ];
+
 
     function criarCards(produtos) {
         const container = document.getElementById('cardsContainer');
